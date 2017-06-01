@@ -1,0 +1,55 @@
+{
+    "key": "group_58c87ccab9c3e",
+    "title": "Background Image",
+    "fields": [
+        {
+            "key": "field_58c876b761b8e",
+            "label": "Front Panel Background Image",
+            "name": "front_panel_background_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "acf-half",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "47"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "43"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1489534787
+}

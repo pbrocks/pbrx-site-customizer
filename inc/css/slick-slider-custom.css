@@ -1,0 +1,43 @@
+section.full-width-slider .container {
+	background-color: #fff;
+}
+
+h2 {
+	text-align: center;
+}
+.full-width-slider {
+	margin-left: -25rem;
+	margin-right: -25rem;
+}
+.slick-slide {
+	background-color: #2e2e2e;
+	padding: 2rem 4rem;
+}
+
+.frame {
+	float: left;
+	overflow: hidden;
+	height: 15rem;
+	width: 30rem;
+}
+
+.frame img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	margin: 0 1rem;
+}
+
+.frame img {
+	height: 40rem;
+}
+
+@media screen and (max-width: 1021px)  {
+	.frame {
+		height: 10rem;
+		width: 20rem;
+	}
+}
+/* don't delete this closing bracket */
+

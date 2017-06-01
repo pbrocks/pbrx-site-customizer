@@ -1,0 +1,79 @@
+{
+    "key": "group_58c74c0158efd",
+    "title": "Front Page Settings",
+    "fields": [
+        {
+            "key": "field_58c74e44f1b3e",
+            "label": "Title Alignment",
+            "name": "title_alignment",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "acf-third",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "left",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_58c7790ff6cd3",
+            "label": "Front Panel Title Color",
+            "name": "front_panel_title_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "acf-third",
+                "id": ""
+            },
+            "default_value": "#000000"
+        },
+        {
+            "key": "field_58c77934f6cd4",
+            "label": "Front Panel Background Color",
+            "name": "front_panel_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "acf-third",
+                "id": ""
+            },
+            "default_value": "#FFFFFF"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1489623956
+}

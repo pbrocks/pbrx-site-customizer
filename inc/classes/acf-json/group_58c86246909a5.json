@@ -1,0 +1,50 @@
+{
+    "key": "group_58c86246909a5",
+    "title": "Use Cases",
+    "fields": [
+        {
+            "key": "field_58c9c34d0efb4",
+            "label": "Use Cases",
+            "name": "use_cases",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "new_relic_use_cases"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "146"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "custom_fields",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1489617862
+}
