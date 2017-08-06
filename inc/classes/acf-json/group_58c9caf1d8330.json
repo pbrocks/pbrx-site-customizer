@@ -56,7 +56,7 @@
                 "id": ""
             },
             "post_type": [
-                "new_relic_use_cases"
+                "pbrx_use_cases"
             ],
             "taxonomy": [],
             "allow_null": 0,

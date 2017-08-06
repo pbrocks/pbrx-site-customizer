@@ -27,7 +27,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "new_relic_customer"
+                "value": "pbrx_customer"
             }
         ]
     ],

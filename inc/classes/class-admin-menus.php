@@ -92,7 +92,7 @@ class Admin_Menus {
 		echo plugins_url( '/', __FILE__ );
 		$cpts = get_post_types();
 		print_r( $cpts );
-		$cpt = get_post_type_object( 'new_relic_use_cases' );
+		$cpt = get_post_type_object( 'pbrx_use_cases' );
 		$cpt = get_post( 205 );
 		print_r( $cpt );
 
